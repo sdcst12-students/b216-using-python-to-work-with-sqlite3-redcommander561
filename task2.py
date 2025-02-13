@@ -30,7 +30,7 @@ connection = sqlite3.connect(file)
 print(connection)
 
 cursor = connection.cursor()
-cursor.execute("drop table if exists customers")
+cursor.execute("delete from customers")
 
 query = """
 create table if not exists customers (
