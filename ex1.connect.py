@@ -12,3 +12,6 @@ to see the status of of the connection object and see if it was successful.
 file = 'dbase.db'
 connection = sqlite3.connect(file)
 print(connection)
+
+
+
